@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.mainLink:link {
+   color: white;
+}
+
+.mainLink:visited {
+    color: green;
+}
+
+.mainLink:hover {
+    color: hotpink;
+}
+
+.mainLink:active {
+    color: red;
+}
+
+li a:link {
+   color: green;
+}
+
+li a:visited {
+    color: blue;
+}
+
+li a:hover {
+	background-color: #111;
+    color: yellow;
+}
+
+li a:active {
+    color: orange;
+}
+
+.menuContainer {
+	background-color: #333;
+}
+
+ul {
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+	list-style-type: none;
+	position: sticky;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
